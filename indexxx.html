@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <link rel="stylesheet" href="index.css">
+    <title>Başvurular</title>
+</head>
+<body>
+    <div id="ustkutu">
+        <button id="girisyap" type="button"><a href="indexxx.html">Başvurularım</a></button>
+        <button id="kayitol" type="button"><a href="indexx.html">Başvur</a></button>
+    </div>
+    <div id="basvurular">
+        <fieldset>
+            <legend>Geçmiş Başvurular</legend>
+
+            <p><label>Ad</label>
+                <input type="text" id="ad"></p>
+    
+                <p><label>Soyad</label>
+                    <input type="text" id="soyad"></p>
+    
+                <p><label>Telefon</label>
+                <input type="text" id="telefon"></p>
+                    
+                <p><label>Öğrenim Durumu</label>
+                <select name="ogrenim" id="ogrenimdurum">
+                    <option value="0">İlkokul</option>
+                    <option value="0">Ortaokul</option>
+                    <option value="0">Lise</option>
+                    <option value="0">Üniversite</option>
+                </select></p>
+    
+                <fieldset id="medenihal">
+                    <legend>Medeni Hal</legend>
+                    <input type="radio" id="evli" name="medeni">Evli
+                    <input type="radio" id="bekar" name="medeni">Bekar
+                </fieldset>
+    
+                <p><label>Maaş Beklentisi</label>
+                <input type="text" id="maasbekle"></p>
+
+                <button type="button" onclick="basvuruiptal()" id="basvuruiptal">Başvuruyu İptal Et</button>
+        </fieldset>
+    </div>
+</body>
+</html>
